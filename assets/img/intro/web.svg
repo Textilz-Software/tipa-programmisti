@@ -1,0 +1,56 @@
+<svg width="1440" height="862" viewBox="0 0 1440 862" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_238_260" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="862">
+<rect width="1440" height="862" fill="url(#paint0_radial_238_260)"/>
+</mask>
+<g mask="url(#mask0_238_260)">
+<rect x="50" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="102" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="154" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="206" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="258" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="310" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="362" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="414" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="466" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="518" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="570" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="622" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="674" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="726" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="778" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="830" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="882" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="934" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="986" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="1038" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="1090" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="1142" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="1194" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="1246" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="1298" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="1350" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect x="1402" width="3" height="1024" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="50" width="3" height="1440" transform="rotate(-90 0 50)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="101" width="3" height="1440" transform="rotate(-90 0 101)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="152" width="3" height="1440" transform="rotate(-90 0 152)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="203" width="3" height="1440" transform="rotate(-90 0 203)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="254" width="3" height="1440" transform="rotate(-90 0 254)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="305" width="3" height="1440" transform="rotate(-90 0 305)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="356" width="3" height="1440" transform="rotate(-90 0 356)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="407" width="3" height="1440" transform="rotate(-90 0 407)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="458" width="3" height="1440" transform="rotate(-90 0 458)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="509" width="3" height="1440" transform="rotate(-90 0 509)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="560" width="3" height="1440" transform="rotate(-90 0 560)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="611" width="3" height="1440" transform="rotate(-90 0 611)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="662" width="3" height="1440" transform="rotate(-90 0 662)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="713" width="3" height="1440" transform="rotate(-90 0 713)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="764" width="3" height="1440" transform="rotate(-90 0 764)" fill="#D9D9D9" fill-opacity="0.1"/>
+<rect y="815" width="3" height="1440" transform="rotate(-90 0 815)" fill="#D9D9D9" fill-opacity="0.1"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_238_260" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 431) rotate(90) scale(497.502 765.966)">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="assets/css/app.min.css">
+
+	<title>Site</title>
+</head>
+<body>
+
+	<div id="app">
+		<header class="header">
+	<div class="header__container">
+		<a class="logo" href="index.html">
+			<svg class="logo__icon" width="50" height="63" viewBox="0 0 50 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M25 62.5C17.7604 60.6771 11.7844 56.5229 7.07188 50.0375C2.35729 43.5542 0 36.3542 0 28.4375V9.375L25 0L50 9.375V28.4375C50 36.3542 47.6438 43.5542 42.9313 50.0375C38.2167 56.5229 32.2396 60.6771 25 62.5ZM25 55.9375C30.0521 54.375 34.2708 51.2896 37.6562 46.6812C41.0417 42.0708 43.0208 36.9271 43.5938 31.25H25V6.64062L6.25 13.6719V29.8438C6.25 30.2083 6.30208 30.6771 6.40625 31.25H25V55.9375Z" fill="#6ECCAF"/>
+			</svg>
+
+			<span class="logo__text">Информационная безопасность</span>
+		</a>
+
+		<nav class="header__nav">
+			<ul class="header__nav-list">
+				<li class="header__nav-list__item">
+					<a class="header__nav-list__link header__nav-list__link_sub" href="#">
+						О специальности
+						<svg class="header__nav-icon" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+						</svg>
+					</a>
+					<ul class="header__nav-sub">
+						<li class="header__nav-sub__item">
+							<a class="header__nav-sub__link" href="index.html#target">Цель</a>
+						</li>
+						<li class="header__nav-sub__item">
+							<a class="header__nav-sub__link" href="index.html#people">Выдающиеся люди</a>
+						</li>
+						<li class="header__nav-sub__item">
+							<a class="header__nav-sub__link" href="index.html#questions">Подробнее</a>
+						</li>
+					</ul>
+				</li>
+				<li class="header__nav-list__item">
+					<a class="header__nav-list__link" href="education.html">Хочу учиться</a>
+				</li>
+				<li class="header__nav-list__item">
+					<a class="header__nav-list__link" href="test.html">Пройти тест</a>
+				</li>
+			</ul>
+		</nav>
+
+		<button class="burger">
+			<div class="burger__line"></div>
+			<div class="burger__line"></div>
+			<div class="burger__line"></div>
+		</button>
+	</div>
+</header>
+
+
+		<main class="main">
+			
+	<div class="intro">
+		<div class="intro__container">
+			<div class="intro__content">
+				<h1 class="intro__title">Специальность<br><span class="accent">информационная безопасность</span></h1>
+				<p class="intro__text">Информационная безопасность обеспечивает <span class="accent">сохранение</span> и <span class="accent">защиту</span> информации</p>
+			</div>
+			<img class="intro__image" src="assets/img/intro/kianu-rivs.png" alt="Kianu Rivs">
+		</div>
+	</div>
+
+	<section class="target" id="target">
+		<div class="target__container">
+			<h2 class="target__title">
+				<span class="target__title_big accent">Цель</span><br>
+				<span class="target__title_small">информационной<br>безопасности</span>
+			</h2>
+			<div class="target__text">Защитить информационные данные от стороннего вмешательства, что может стать причиной потери данных. Информационная безопасность помогает обеспечить непрерывность бизнеса.</div>
+		</div>
+	</section>
+
+	<section class="people" id="people">
+		<div class="people__container">
+			<div class="peoplq__header">
+				<h2 class="people__title">
+					<span>Выдающиеся люди</span>
+				</h2>
+			</div>
+
+			<div class="people-tabs">
+				<div class="people-tabs__header">
+					<button class="people-tabs__button" data-tabs="1">Касперский</button>
+					<button class="people-tabs__button" data-tabs="2">Макафи</button>
+					<button class="people-tabs__button" data-tabs="3">Снайдер</button>
+					<button class="people-tabs__button" data-tabs="4">Сноуден</button>
+				</div>
+				<div class="people-tabs__content">
+					<div class="people-tabs__item" data-tab-content="1">
+						<img class="people-tabs__image" src="assets/img/people/kasperskiy.jpg" alt="Евгений Касперский">
+						<div class="people-tabs__descr">
+							<h3 class="people-tabs__title">Евгений Касперский</h3>
+							<p class="people-tabs__text">
+								Российский программист, один из ведущих мировых специалистов в сфере информационной безопасности. Один из основателей, основной владелец и нынешний глава АО «Лаборатория Касперского» — международной компании, занимающейся разработкой решений для обеспечения IT-безопасности, имеющей более 30 региональных офисов и ведущей продажи в 200 странах. Лауреат Государственной премии в области науки и технологий за 2008 год.
+							</p>
+						</div>
+					</div>
+					<div class="people-tabs__item" data-tab-content="2">
+						<img class="people-tabs__image" src="assets/img/people/mcafee.jpg" alt="Джон Макафи">
+						<div class="people-tabs__descr">
+							<h3 class="people-tabs__title">Джон Макафи</h3>
+							<p class="people-tabs__text">
+								Американский программист, основатель компании-разработчика антивирусного программного обеспечения McAfee. Один из первых людей, спроектировавших антивирусное программное обеспечение и разработавших сканер вирусов.
+							</p>
+						</div>
+					</div>
+					<div class="people-tabs__item" data-tab-content="3">
+						<img class="people-tabs__image" src="assets/img/people/snyder.jpg" alt="Виндов Снайдер">
+						<div class="people-tabs__descr">
+							<h3 class="people-tabs__title">Виндов Снайдер</h3>
+							<p class="people-tabs__text">
+								Виндов Снайдер известна тем, что является автором книги «Моделирование угроз». В ней она и инженер Microsoft Software Security Фрэнк Свидерск описывают стратегию выявления и устранения рисков безопасности системы.
+							</p>
+						</div>
+					</div>
+					<div class="people-tabs__item" data-tab-content="4">
+						<img class="people-tabs__image" src="assets/img/people/snowden.jpeg" alt="Эдвард Сноуден">
+						<div class="people-tabs__descr">
+							<h3 class="people-tabs__title">Эдвард Сноуден</h3>
+							<p class="people-tabs__text">
+								Американский технический специалист и спецагент, бывший сотрудник ЦРУ и Агентства национальной безопасности (АНБ) США. В начале июня 2013 года Сноуден передал газетам The Guardian и The Washington Post секретную информацию АНБ, касающуюся тотальной слежки американских спецслужб за информационными коммуникациями между гражданами многих государств по всему миру при помощи существующих информационных сетей и сетей связи, включая сведения о проекте PRISM, а также X-Keyscore и Tempora.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="questions" id="questions">
+		<div class="questions__container">
+			<h2 class="questions__title">Подробнее</h2>
+			<div class="questions-accordeon">
+
+				<div class="questions-accordeon__item questions-accordeon__item_active">
+					<button class="questions-accordeon__button">
+						<h3 class="questions-accordeon__title">Преимущества специальности</h3>
+						<svg class="questions-accordeon__icon questions-accordeon__icon_active" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+						</svg>
+					</button>
+					<div class="questions-accordeon__content">
+						<ul>
+							<li>Востребованность на рынке труда, так как сфера информационной безопасности стремительно развивается, а значит, спрос на специалистов в этой области будет постоянно расти</li>
+							<li>Высокая оплата труда</li>
+							<li>Возможность освоения самых передовых технологий защиты информации</li>
+							<li>Возможность посещать конференции и семинары</li>
+							<li>Общение с разнообразными специалистами, возможность завязать полезные связи.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="questions-accordeon__item">
+					<button class="questions-accordeon__button">
+						<h3 class="questions-accordeon__title">Направленности программы специальности</h3>
+						<svg class="questions-accordeon__icon" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+						</svg>
+					</button>
+					<div class="questions-accordeon__content">
+						<ul>
+							<li>Безопасность компьютерных систем (по отрасли или в сфере профессиональной деятельности)</li>
+							<li>Организация и технологии защиты информации (по отрасли или в сфере профессиональной деятельности)</li>
+							<li>Техническая защита информации</li>
+							<li>Безопасность автоматизированных систем (по отрасли или в сфере профессиональной деятельности)</li>
+							<li>Безопасность телекоммуникационных систем (по отрасли или в сфере профессиональной деятельности)</li>
+							<li>Информационно-аналитические системы финансового мониторинга</li>
+						</ul>
+					</div>
+				</div>
+				<div class="questions-accordeon__item">
+					<button class="questions-accordeon__button">
+						<h3 class="questions-accordeon__title">Общепрофессиональные компетенции</h3>
+						<svg class="questions-accordeon__icon" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+						</svg>
+					</button>
+					<div class="questions-accordeon__content">
+						<ul>
+							<li>Способен решать задачи первичного финансового мониторинга в рамках функционирования служб внутреннего контроля субъектов финансового мониторинга</li>
+							<li>Способен учитывать и использовать особенности информационных технологий, применяемых в автоматизированных системах финансовых и экономических структур, для информационно-аналитического обеспечения финансового мониторинга</li>
+							<li>Способен реализовывать комплекс мероприятий по защите информации в автоматизированных системах финансовых и экономических структур</li>
+							<li>Способен применять технологии защиты информации при создании защищенных телекоммуникационных систем</li>
+							<li>Способен осуществлять диагностику и мониторинг систем защиты автоматизированных систем</li>
+							<li>Способен выполнять работы по установке, настройке, администрированию, обслуживанию и проверке работоспособности отдельных программных, программно-аппаратных (в том числе криптографических) и технических средств защиты информации автоматизированных систем</li>
+							<li><a href="https://fgos.ru/fgos/fgos-10-03-01-informacionnaya-bezopasnost-1427/" class="accent" target="_blank">Читать полный список</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+		</main>
+
+		<footer class="footer">
+	<div class="footer__container">
+		<div class="footer__inner">
+			<div class="footer__info">
+				<a class="logo" href="index.html">
+					<svg class="logo__icon" width="50" height="63" viewBox="0 0 50 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M25 62.5C17.7604 60.6771 11.7844 56.5229 7.07188 50.0375C2.35729 43.5542 0 36.3542 0 28.4375V9.375L25 0L50 9.375V28.4375C50 36.3542 47.6438 43.5542 42.9313 50.0375C38.2167 56.5229 32.2396 60.6771 25 62.5ZM25 55.9375C30.0521 54.375 34.2708 51.2896 37.6562 46.6812C41.0417 42.0708 43.0208 36.9271 43.5938 31.25H25V6.64062L6.25 13.6719V29.8438C6.25 30.2083 6.30208 30.6771 6.40625 31.25H25V55.9375Z" fill="#6ECCAF"/>
+					</svg>
+					<span class="logo__text">Информационная безопасность</span>
+				</a>
+
+				<p class="footer__text">Сайт сделан в рамках проекта “Битва умов”</p>
+			</div>
+
+			<div class="footer__row">
+				<div class="footer__col">
+					<h4 class="footer__title">Навигация</h4>
+
+					<ul class="footer__nav">
+						<li class="footer__item">
+							<a class="footer__link footer__link_sub" href="#">
+								О специальности
+								<svg class="footer__icon" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+								</svg>
+							</a>
+							<ul class="footer__nav-sub">
+								<li class="footer__nav-sub__item">
+									<a class="footer__nav-sub__link" href="index.html#target">Цель</a>
+								</li>
+								<li class="footer__nav-sub__item">
+									<a class="footer__nav-sub__link" href="index.html#people">Выдающиеся люди</a>
+								</li>
+								<li class="footer__nav-sub__item">
+									<a class="footer__nav-sub__link" href="index.html#questions">Подробнее</a>
+								</li>
+							</ul>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="education.html">Хочу учиться</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="test.html">Пройти тест</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__col">
+					<h4 class="footer__title">Участники команды</h4>
+
+					<ul class="footer__nav">
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/textilz">Смирнов Виталий</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/id149081247">Макаров Станислав</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/sillynotromanticdinosaur">Леонтьев Никита</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/nik1492">Полищук Никита</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/ekkstacy">Осипов Михаил</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link footer__link_dima" target="_blank" href="https://vk.com/whitedann">Тынчук Дмитрий</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	</div>
+
+	
+	<script src="/assets/js/jquery-3.6.1.min.js"></script>
+	<script src="/assets/js/app.min.js"></script>
+
+</body>
+</html>

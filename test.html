@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="assets/css/app.min.css">
+
+	<title>Тест</title>
+</head>
+<body>
+
+	<div id="app">
+		<header class="header">
+	<div class="header__container">
+		<a class="logo" href="index.html">
+			<svg class="logo__icon" width="50" height="63" viewBox="0 0 50 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M25 62.5C17.7604 60.6771 11.7844 56.5229 7.07188 50.0375C2.35729 43.5542 0 36.3542 0 28.4375V9.375L25 0L50 9.375V28.4375C50 36.3542 47.6438 43.5542 42.9313 50.0375C38.2167 56.5229 32.2396 60.6771 25 62.5ZM25 55.9375C30.0521 54.375 34.2708 51.2896 37.6562 46.6812C41.0417 42.0708 43.0208 36.9271 43.5938 31.25H25V6.64062L6.25 13.6719V29.8438C6.25 30.2083 6.30208 30.6771 6.40625 31.25H25V55.9375Z" fill="#6ECCAF"/>
+			</svg>
+
+			<span class="logo__text">Информационная безопасность</span>
+		</a>
+
+		<nav class="header__nav">
+			<ul class="header__nav-list">
+				<li class="header__nav-list__item">
+					<a class="header__nav-list__link header__nav-list__link_sub" href="#">
+						О специальности
+						<svg class="header__nav-icon" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+						</svg>
+					</a>
+					<ul class="header__nav-sub">
+						<li class="header__nav-sub__item">
+							<a class="header__nav-sub__link" href="index.html#target">Цель</a>
+						</li>
+						<li class="header__nav-sub__item">
+							<a class="header__nav-sub__link" href="index.html#people">Выдающиеся люди</a>
+						</li>
+						<li class="header__nav-sub__item">
+							<a class="header__nav-sub__link" href="index.html#questions">Подробнее</a>
+						</li>
+					</ul>
+				</li>
+				<li class="header__nav-list__item">
+					<a class="header__nav-list__link" href="education.html">Хочу учиться</a>
+				</li>
+				<li class="header__nav-list__item">
+					<a class="header__nav-list__link" href="test.html">Пройти тест</a>
+				</li>
+			</ul>
+		</nav>
+
+		<button class="burger">
+			<div class="burger__line"></div>
+			<div class="burger__line"></div>
+			<div class="burger__line"></div>
+		</button>
+	</div>
+</header>
+
+
+		<main class="main">
+			
+	<div class="test">
+		<div class="test__container">
+			<h1 class="test__title">Тест</h1>
+
+			<form class="test__content" method="post">
+				<div class="test__question"></div>
+
+				<div class="test__options">
+					<label class="test__option">
+						<input class="test__input" type="radio" name="name" data-answ="2">
+						<div class="test__radio"></div>
+						<span class="test__answer">Да</span>
+					</label>
+					<label class="test__option">
+						<input class="test__input" type="radio" name="name" data-answ="-2">
+						<div class="test__radio"></div>
+						<span class="test__answer">Нет</span>
+					</label>
+					<label class="test__option">
+						<input class="test__input" type="radio" name="name" data-answ="1">
+						<div class="test__radio"></div>
+						<span class="test__answer">Скорее да</span>
+					</label>
+					<label class="test__option">
+						<input class="test__input" type="radio" name="name" data-answ="-1">
+						<div class="test__radio"></div>
+						<span class="test__answer">Скорее нет</span>
+					</label>
+				</div>
+
+				<div class="test__navigation">
+					<button class="button" type="button" data-btn-type="prev">
+						<svg class="button__icon button__icon_prev" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+						</svg>
+						Назад
+					</button>
+					<button class="button" type="button" data-btn-type="next">
+						Дальше
+						<svg class="button__icon button__icon_next" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+						</svg>
+					</button>
+					<button class="button hide" type="button" data-btn-type="result">
+						Получить результаты
+						<svg class="button__icon button__icon_next" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+						</svg>
+					</button>
+				</div>
+
+				<div class="result">
+					<div class="result__content">
+						<h3 class="result__title">
+							<svg class="result__icon" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#6eccaf" d="m9 20.42l-6.21-6.21l2.83-2.83L9 14.77l9.88-9.89l2.83 2.83L9 20.42Z"/></svg>
+							Результат теста
+						</h3>
+						<p class="result__text">Вы подходите, чтобы стать специалистом</p>
+						<a href="education.html" class="result__link">Найти учебные заведения</a>
+					</div>
+					<button class="button" type="button" data-btn-type="reset">
+						Пройти тест занаво
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+		</main>
+
+		<footer class="footer">
+	<div class="footer__container">
+		<div class="footer__inner">
+			<div class="footer__info">
+				<a class="logo" href="index.html">
+					<svg class="logo__icon" width="50" height="63" viewBox="0 0 50 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M25 62.5C17.7604 60.6771 11.7844 56.5229 7.07188 50.0375C2.35729 43.5542 0 36.3542 0 28.4375V9.375L25 0L50 9.375V28.4375C50 36.3542 47.6438 43.5542 42.9313 50.0375C38.2167 56.5229 32.2396 60.6771 25 62.5ZM25 55.9375C30.0521 54.375 34.2708 51.2896 37.6562 46.6812C41.0417 42.0708 43.0208 36.9271 43.5938 31.25H25V6.64062L6.25 13.6719V29.8438C6.25 30.2083 6.30208 30.6771 6.40625 31.25H25V55.9375Z" fill="#6ECCAF"/>
+					</svg>
+					<span class="logo__text">Информационная безопасность</span>
+				</a>
+
+				<p class="footer__text">Сайт сделан в рамках проекта “Битва умов”</p>
+			</div>
+
+			<div class="footer__row">
+				<div class="footer__col">
+					<h4 class="footer__title">Навигация</h4>
+
+					<ul class="footer__nav">
+						<li class="footer__item">
+							<a class="footer__link footer__link_sub" href="#">
+								О специальности
+								<svg class="footer__icon" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.89189 16.2162L0 14.3243L6.21622 8.10811L0 1.89189L1.89189 0L10 8.10811L1.89189 16.2162Z"/>
+								</svg>
+							</a>
+							<ul class="footer__nav-sub">
+								<li class="footer__nav-sub__item">
+									<a class="footer__nav-sub__link" href="index.html#target">Цель</a>
+								</li>
+								<li class="footer__nav-sub__item">
+									<a class="footer__nav-sub__link" href="index.html#people">Выдающиеся люди</a>
+								</li>
+								<li class="footer__nav-sub__item">
+									<a class="footer__nav-sub__link" href="index.html#questions">Подробнее</a>
+								</li>
+							</ul>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="education.html">Хочу учиться</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="test.html">Пройти тест</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__col">
+					<h4 class="footer__title">Участники команды</h4>
+
+					<ul class="footer__nav">
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/textilz">Смирнов Виталий</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/id149081247">Макаров Станислав</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/sillynotromanticdinosaur">Леонтьев Никита</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/nik1492">Полищук Никита</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" target="_blank" href="https://vk.com/ekkstacy">Осипов Михаил</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link footer__link_dima" target="_blank" href="https://vk.com/whitedann">Тынчук Дмитрий</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	</div>
+
+	
+<script src="/assets/js/jquery-3.6.1.min.js"></script>
+<script src="/assets/js/app.min.js"></script>
+<script src="/assets/js/test.min.js"></script>
+
+</body>
+</html>
